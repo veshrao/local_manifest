@@ -20,8 +20,8 @@
         <remove-project name="hardware_qcom-caf_msm8996_audio" />
 
         <!-- Clone r Hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="PixelExperience/hardware_qcom-caf_msm8996-r_display" remote="PixelExperience" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/media" name="PixelExperience/hardware_qcom-caf_msm8996-r_media" remote="PixelExperience" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="PixelExperience/hardware_qcom-caf_msm8996_audio" remote="PixelExperience" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="veshrao" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="veshrao" revision="eleven" />
 
 </manifest>
