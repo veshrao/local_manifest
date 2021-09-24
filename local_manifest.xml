@@ -5,7 +5,7 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rolex" remote="veshrao" revision="bananadroid" />
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rolex" remote="veshrao" revision="banana" />
       
 
         <!-- Sync vendor trees -->
