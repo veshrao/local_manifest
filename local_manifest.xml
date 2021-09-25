@@ -5,13 +5,12 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rolex" name="device_xiaomi_rolex" remote="veshrao" revision="banana" />
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rolex" remote="veshrao" revision="banana" />
       
-
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="vendor_xiaomi_rolex" remote="veshrao" revision="r" />
+        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rolex" remote="veshrao" revision="r" />
        
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="veshrao" revision="a11" />
+        <project path="kernel/xiaomi/msm8937" name="veshrao/android_kernel_xiaomi_msm8937" remote="veshrao" revision="a11" />
 
 </manifest>
