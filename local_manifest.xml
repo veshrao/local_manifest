@@ -14,13 +14,13 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/lavender" name="veshrao/device_xiaomi_lavender" remote="veshrao" revision="potato" />
+        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="veshrao" revision="potato" />
       
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/lavender" name="PixelPlusUI-Devices/android_vendor_xiaomi_lavender" remote="PixelPlusUI-Devices" revision="eleven" />
+        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="PixelPlusUI-Devices" revision="eleven" />
        
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender" remote="stormbreaker-project" revision="oldcam-eas" />
+        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="oldcam-eas" />
         
         <!-- Remove Display Hals -->
          <remove-project name="hardware_qcom_display-caf_msm8998" />
@@ -40,8 +40,8 @@
          <remove-project name="hardware_qcom_audio" />
 
         <!-- Clone r Hals -->
-        <project path="hardware/qcom-caf/msm8998-r/display" name="AOSP-11/hardware_qcom-caf_display_msm8998" remote="AOSP-11" revision="11" />
-        <project path="hardware/qcom-caf/msm8998-r/audio" name="AOSP-11/hardware_qcom-caf_audio_msm8998" remote="AOSP-11" revision="11" />
-        <project path="hardware/qcom-caf/msm8998-r/media" name="AOSP-11/hardware_qcom-caf_media_msm8998" remote="AOSP-11" revision="11" />
+        <project path="hardware/qcom-caf/msm8998-r/display" name="hardware_qcom-caf_display_msm8998" remote="AOSP-11" revision="11" />
+        <project path="hardware/qcom-caf/msm8998-r/audio" name="hardware_qcom-caf_audio_msm8998" remote="AOSP-11" revision="11" />
+        <project path="hardware/qcom-caf/msm8998-r/media" name="hardware_qcom-caf_media_msm8998" remote="AOSP-11" revision="11" />
 
 </manifest>
