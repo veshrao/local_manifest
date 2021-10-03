@@ -3,15 +3,25 @@
 
         <remote name="veshrao"
                 fetch="https://github.com" />
+        
+         <remote name="mvaisakh"
+                fetch="https://github.com" />
+        
+        <remote name="mi-msm8937"
+                fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rolex" remote="veshrao" revision="banana" />
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="banana" />
       
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rolex" remote="veshrao" revision="r" />
+        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="veshrao" revision="r" />
        
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="veshrao/android_kernel_xiaomi_msm8937" remote="veshrao" revision="a11" />
+        <project path="kernel/xiaomi/msm8937" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a11" />
+        
+        <!-- Clone GCC -->
+        <project path="prebuilts/evagcc/gcc64" name="mvaisakh/gcc-arm64" remote="mvaisakh" revision="gcc-master" />
+        <project path="prebuilts/evagcc/gcc32" name="mvaisakh/gcc-arm" remote="mvaisakh" revision="gcc-master" />
         
          <!-- Remove r Hals -->
         <remove-project name="android_hardware_qcom_display" />
