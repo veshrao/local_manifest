@@ -9,20 +9,20 @@
            fetch="https://github.com/AOSPA-sdm439"  />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova_caf" remote="veshrao" revision="main" />
+        <project path="device/xiaomi/rolex" name="device_xiaomi_rova_caf" remote="veshrao" revision="main" />
       
         <!-- vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="veshrao" revision="p404-rippa" />
+        <project path="vendor/xiaomi/rolex" name="vendor_xiaomi_rova" remote="veshrao" revision="p404-rippa" />
        
         <!-- kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a11" />
+        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a11" />
 
         <!-- clone hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="veshrao" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="veshrao" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="veshrao" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="veshrao" revision="eleven" />
         
         <!-- modul -->
-        <project path="external/ant-wireless/antradio-library" name="AOSPA-sdm439/android_external_ant-wireless_antradio-library" remote="AOSPA-sdm439" revision="ruby" />
+        <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="AOSPA-sdm439" revision="ruby" />
 
 </manifest>
