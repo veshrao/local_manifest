@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-        <remote name="veshrao"
-                fetch="https://github.com" />
         
-        <remote name="mi-msm8937"
-                fetch="https://github.com" />
-
-        <remote name="AOSPA-sdm439"
-                fetch="https://github.com" />       
+  <remote  name="veshrao"
+           fetch="https://github.com/veshrao" />
+  <remote  name="mi-msm8937"
+           fetch="https://github.com/mi-msm8937" />
+  <remote  name="AOSPA-sdm439"
+           fetch="https://github.com/AOSPA-sdm439"  />
 
         <!-- device tree -->
         <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova_caf" remote="veshrao" revision="main" />
