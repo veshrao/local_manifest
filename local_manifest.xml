@@ -24,11 +24,7 @@
         
         <!-- Remove Display Hals -->>
          <remove-project name="hardware_qcom_display" />
-
-        <!-- Remove Media Hals -->
          <remove-project name="hardware_qcom_media" />
-
-         <!-- Remove Audio Hals -->
          <remove-project name="hardware_qcom_audio" />
 
         <!-- Clone r Hals -->
