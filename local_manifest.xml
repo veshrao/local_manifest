@@ -4,36 +4,27 @@
         <remote name="veshrao"
                 fetch="https://github.com" />
         
-         <remote name="mvaisakh"
-                fetch="https://github.com" />
-        
         <remote name="mi-msm8937"
                 fetch="https://github.com" />
 
+        <remote name="AOSPA-sdm439"
+                fetch="https://github.com" />       
+
         <!-- device tree -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="banana" />
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova_caf" remote="veshrao" revision="main" />
       
         <!-- vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="veshrao" revision="r" />
+        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="veshrao" revision="p404-rippa" />
        
         <!-- kernel trees -->
         <project path="kernel/xiaomi/msm8937" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a11" />
-        
-        <!-- clone gcc -->
-        <project path="prebuilts/evagcc/gcc64" name="mvaisakh/gcc-arm64" remote="mvaisakh" revision="gcc-master" />
-        <project path="prebuilts/evagcc/gcc32" name="mvaisakh/gcc-arm" remote="mvaisakh" revision="gcc-master" />
-        
-         <!-- remove hals -->
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
-        
-        <!-- clone gcamgo -->
-        <project path="android/packages/apps/GCamGOPrebuilt" name="veshrao/android_packages_apps_GCamGOPrebuilt" remote="veshrao" revision="arrow-11.0" />
 
         <!-- clone hals -->
         <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="veshrao" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="veshrao" revision="eleven" />
+        
+        <!-- modul -->
+        <project path="external/ant-wireless/antradio-library" name="AOSPA-sdm439/android_external_ant-wireless_antradio-library" remote="AOSPA-sdm439" revision="ruby" />
 
 </manifest>
