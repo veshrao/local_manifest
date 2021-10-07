@@ -11,7 +11,7 @@
                 fetch="https://github.com" />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="banana" />
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="test" />
       
         <!-- vendor trees -->
         <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="veshrao" revision="r" />
