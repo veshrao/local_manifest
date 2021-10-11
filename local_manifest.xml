@@ -11,7 +11,7 @@
                 fetch="https://github.com" />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="radiant" />
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="testg" />
       
         <!-- vendor trees -->
         <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="veshrao" revision="r" />
@@ -22,6 +22,11 @@
         <!-- clone gcc -->
         <project path="prebuilts/evagcc/gcc64" name="mvaisakh/gcc-arm64" remote="mvaisakh" revision="gcc-master" />
         <project path="prebuilts/evagcc/gcc32" name="mvaisakh/gcc-arm" remote="mvaisakh" revision="gcc-master" />
+        
+         <!-- remove hals -->
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_audio" />
 
         <!-- clone hals -->
         <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
