@@ -11,17 +11,17 @@
                 fetch="https://github.com" />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="testg" />
+        <project path="device/xiaomi/rova" name="veshrao/device_xiaomi_rova_main" remote="veshrao" revision="banana" />
       
         <!-- vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="veshrao" revision="r" />
+        <project path="vendor/xiaomi/rova" name="veshrao/vendor_xiaomi_rova_main" remote="veshrao" revision="11" />
        
         <!-- kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a11" />
+        <project path="kernel/xiaomi/rova" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a11" />
         
         <!-- clone gcc -->
-        <project path="prebuilts/evagcc/gcc64" name="mvaisakh/gcc-arm64" remote="mvaisakh" revision="gcc-master" />
-        <project path="prebuilts/evagcc/gcc32" name="mvaisakh/gcc-arm" remote="mvaisakh" revision="gcc-master" />
+        <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="mvaisakh" revision="gcc-master" />
+        <project path="prebuilts/gcc32" name="mvaisakh/gcc-arm" remote="mvaisakh" revision="gcc-master" />
         
          <!-- remove hals -->
         <remove-project name="android_hardware_qcom_display" />
