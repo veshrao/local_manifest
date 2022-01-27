@@ -11,17 +11,13 @@
                 fetch="https://github.com" />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rova" name="veshrao/device_xiaomi_rova_main" remote="veshrao" revision="banana" />
+        <project path="device/xiaomi/rova" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="xdroid.r" />
       
         <!-- vendor trees -->
-        <project path="vendor/xiaomi/rova" name="veshrao/vendor_xiaomi_rova_main" remote="veshrao" revision="11" />
+        <project path="vendor/xiaomi/rova" name="veshrao/vendor_xiaomi_rova_main" remote="veshrao" revision="caf.r" />
        
         <!-- kernel trees -->
-        <project path="kernel/xiaomi/rova" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a11" />
-        
-        <!-- clone gcc -->
-        <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="mvaisakh" revision="gcc-master" />
-        <project path="prebuilts/gcc32" name="mvaisakh/gcc-arm" remote="mvaisakh" revision="gcc-master" />
+        <project path="kernel/xiaomi/rova" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a12/master" />
         
          <!-- remove hals -->
         <remove-project name="android_hardware_qcom_display" />
@@ -29,8 +25,8 @@
         <remove-project name="android_hardware_qcom_audio" />
 
         <!-- clone hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="veshrao" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="veshrao" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/display" remote="veshrao" revision="main" />
+        <project path="hardware/qcom-caf/msm8996/media" name="veshrao/media" remote="veshrao" revision="main" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/audio" remote="veshrao" revision="main" />
 
 </manifest>
