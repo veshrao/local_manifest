@@ -28,5 +28,11 @@
         <project path="hardware/qcom-caf/msm8996/display" name="veshrao/display" remote="veshrao" revision="main" />
         <project path="hardware/qcom-caf/msm8996/media" name="veshrao/media" remote="veshrao" revision="main" />
         <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/audio" remote="veshrao" revision="main" />
+        
+        <!-- remove frameworks native -->
+        <remove-project name="xd_frameworks_native" />
+        
+        <!-- clone frameworks native -->
+       <project path="frameworks/native" name="veshrao/xd_frameworks_native" remote="veshrao" revision="eleven" />
 
 </manifest>
