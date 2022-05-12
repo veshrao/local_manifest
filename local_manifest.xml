@@ -4,20 +4,23 @@
         <remote name="veshrao"
                 fetch="https://github.com" />
         
-         <remote name="mvaisakh"
+         <remote name="PixelExperience"
                 fetch="https://github.com" />
         
-        <remote name="mi-msm8937"
+        <remote name="liquidprjkt"
                 fetch="https://github.com" />
+                
+        <remote name="Panchajanya1999"
+                fetch="https://gitlab.com" />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rova" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="xdroid.r" />
+        <project path="device/xiaomi/rova" name="veshrao/device_xiaomi_rova" remote="veshrao" revision="flos.s" />
       
         <!-- vendor trees -->
-        <project path="vendor/xiaomi/rova" name="veshrao/vendor_xiaomi_rova_main" remote="veshrao" revision="caf.r" />
+        <project path="vendor/xiaomi/rova" name="veshrao/vendor_xiaomi_rova_main" remote="veshrao" revision="s" />
        
         <!-- kernel trees -->
-        <project path="kernel/xiaomi/rova" name="mi-msm8937/android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a12/master" />
+        <project path="kernel/xiaomi/rova" name="liquidprjkt/liquid_kernel_xiaomi_rova" remote="liquidprjkt" revision="a12/master" />
         
          <!-- remove hals -->
         <remove-project name="android_hardware_qcom_display" />
@@ -25,14 +28,11 @@
         <remove-project name="android_hardware_qcom_audio" />
 
         <!-- clone hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/display" remote="veshrao" revision="main" />
+        <project path="hardware/qcom-caf/msm8996/display" name="PixelExperience/hardware_qcom-caf_msm8996-r_display" remote="PixelExperience" revision="twelve" />
         <project path="hardware/qcom-caf/msm8996/media" name="veshrao/media" remote="veshrao" revision="main" />
         <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/audio" remote="veshrao" revision="main" />
         
-        <!-- remove frameworks native -->
-        <remove-project name="xd_frameworks_native" />
-        
-        <!-- clone frameworks native -->
-       <project path="frameworks/native" name="veshrao/xd_frameworks_native" remote="veshrao" revision="eleven" />
+        <!-- clone azure/custom clang -->
+       <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="Panchajanya1999" revision="main" />
 
 </manifest>
